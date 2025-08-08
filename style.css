@@ -1,0 +1,136 @@
+img {
+    -webkit-user-drag: none;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background: rgb(40, 40, 40);
+}
+::-webkit-scrollbar-thumb {
+    background: #2f3033;
+    border-radius: 10px;
+}
+/*scroll bar /\   */
+
+body {
+    background-color: #1c1b1c;
+}
+
+.circle { border-radius: 100%; }
+.circle2 { border-radius: 30%; }
+.shadowRed {box-shadow: #ec1111 0px 0px 30px 10px;}
+
+.navHover:hover {
+    background-color: rgb(75, 75, 75);
+    border-radius: 15px;
+    height: 2em;
+    text-align: center;
+}
+
+.line {
+    border: 1px solid rgb(96, 96, 96);
+    height: 1px;
+    width: 100%;
+}
+
+.mx-18 { margin-left: 18%; }
+.mx-58 { margin-left: 58%; }
+.fs-giant { font-size: 60px; }
+.color-lightred { color: #DE4C4A;}
+
+.box { border: 1px solid #fff;}
+.roundedCorner1 { border-radius: 5px 0px 0px 0px;}
+.roundedCorner2 { border-radius: 0px 5px 0px 0px;}
+.roundedCorner3 { border-radius: 0px 0px 5px 0px;}
+.roundedCorner4 { border-radius: 0px 0px 0px 5px;}
+
+.genericBox {
+    background-color: rgb(20, 20, 20);
+    border: 2px solid gray;
+    height: 490px;
+    border-radius: 15px;
+    width: 300px;
+}
+
+.githubBtn {
+    background-color: rgb(43, 43, 43);
+    width: 200px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+    
+    &:hover {
+        transition-duration: 0.5s;
+        box-shadow: #616161 0px 0px 40px 10px;
+        cursor: pointer;
+    }
+}
+
+.youtubeBtn {
+    background-color: red;
+    width: 200px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+    
+    &:hover {
+        transition-duration: 0.5s;
+        box-shadow: #ec1111 0px 0px 40px 10px;
+        cursor: pointer;
+    }
+}
+
+.instagramBtn {
+    background-color: rgb(234, 0, 255);
+    width: 200px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+    
+    &:hover {
+        transition-duration: 0.5s;
+        box-shadow: rgb(245, 34, 221) 0px 0px 40px 10px;
+        cursor: pointer;
+    }
+}
+
+.speedcubetrainerBtn {
+    background-color: rgb(255, 115, 0);
+    width: 200px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+    
+    &:hover {
+        transition-duration: 0.5s;
+        box-shadow: rgb(245, 178, 34) 0px 0px 40px 10px;
+        cursor: pointer;
+    }
+}
+
+.line {
+    border: 2px solid gray;
+    width: auto;
+    display: flex;
+    margin: auto;
+}
+
+.carouselRecent {
+    transition-duration: 0.5s;
+    &:hover {
+        transition-duration: 0.5s;
+        cursor: pointer;
+        box-shadow: rgb(82, 82, 82) 0px 0px 25px 10px;
+    }
+}
+
+.boxShadowWhite {
+    box-shadow: rgb(101, 101, 101) 0px 0px 25px 10px;
+}
